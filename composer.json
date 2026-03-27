@@ -1,0 +1,27 @@
+{
+    "name": "dc/package-poc",
+    "description": "A demo php package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dc\\PackagePoc\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "provider": [
+                "Dc\\PackagePoc\\PackageServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Shadab Amir",
+            "email": "shadab.amir@squarehealth.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.0"
+    }
+}
