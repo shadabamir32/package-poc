@@ -10,7 +10,7 @@
     },
     "extra": {
         "laravel": {
-            "provider": [
+            "providers": [
                 "Dc\\PackagePoc\\PackageServiceProvider"
             ]
         }
